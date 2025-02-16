@@ -1,0 +1,50 @@
+{
+  "name": "africar-admin",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@date-io/date-fns": "^3.2.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fullcalendar/core": "^6.1.15",
+    "@fullcalendar/daygrid": "^6.1.15",
+    "@fullcalendar/interaction": "^6.1.15",
+    "@fullcalendar/react": "^6.1.15",
+    "@mui/icons-material": "^5.14.3",
+    "@mui/lab": "^6.0.0-beta.26",
+    "@mui/material": "^5.14.5",
+    "@mui/x-charts": "^7.25.0",
+    "@mui/x-data-grid": "^7.25.0",
+    "@mui/x-date-pickers": "^7.26.0",
+    "@react-google-maps/api": "^2.20.5",
+    "@types/leaflet": "^1.9.16",
+    "@types/recharts": "^1.8.29",
+    "axios": "^1.7.9",
+    "date-fns": "^4.1.0",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.4.7",
+    "framer-motion": "^12.4.2",
+    "leaflet": "^1.9.4",
+    "notistack": "^3.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^5.0.0",
+    "react-router-dom": "^6.15.0",
+    "recharts": "^2.15.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "@vitejs/plugin-react": "^4.0.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  }
+}
